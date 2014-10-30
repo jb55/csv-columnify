@@ -1,0 +1,22 @@
+{
+  "name": "csv-columnify",
+  "description": "Columnify csv files",
+  "keywords": ["columnify", "csv"],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/csv-columnify.git"
+  },
+  "main": "bin.js",
+  "bin": {
+    "csv-columnify": "./bin.js"
+  },
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {
+    "columnify": "^1.2.1",
+    "csv-parser": "^1.4.6",
+    "minimist": "^1.1.0",
+  }
+}
