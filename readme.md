@@ -5,6 +5,8 @@
 
   ![example](./example.png)
 
+  The json2csv in this example is from [jb55/json2csv](http://npmrepo.com/jb55-json2csv)
+
 ## Installation
 
   Install with npm
