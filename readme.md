@@ -11,7 +11,9 @@
 
 ## Example
 
-    $ csv-columnify -d $'\t' < file.tsv
+  Pretty print a tab-separated file, pipe it to less with horizontal scrolling
+
+    $ csv-columnify -d $'\t' < file.tsv | less -S
 
 ## License
 
