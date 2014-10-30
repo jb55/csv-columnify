@@ -3,6 +3,8 @@
 
   pretty print a csv
 
+  ![example](./example.png)
+
 ## Installation
 
   Install with npm
