@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+require('epipebomb')();
+
 var csv = require('csv-parser');
 var columnify = require('columnify');
 var fs = require('fs');

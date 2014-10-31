@@ -1,8 +1,11 @@
 {
   "name": "csv-columnify",
   "description": "Columnify csv files",
-  "keywords": ["columnify", "csv"],
-  "version": "0.0.1",
+  "keywords": [
+    "columnify",
+    "csv"
+  ],
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/jb55/csv-columnify.git"
@@ -17,6 +20,7 @@
   "dependencies": {
     "columnify": "^1.2.1",
     "csv-parser": "^1.4.6",
+    "epipebomb": "^0.1.1",
     "minimist": "^1.1.0"
   }
 }
