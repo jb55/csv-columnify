@@ -8,6 +8,7 @@ var fs = require('fs');
 var argv = require('minimist')(process.argv.slice(2));
 
 var separator = argv.delimiter || argv.separator || argv.d || argv.s || ',';
+var header = argv.header || argv.h;
 var keys = [];
 var items = [];
 var srcFile = argv._ && argv._[0];
@@ -21,5 +22,7 @@ source
   items.push(obj);
 })
 .on('end', function() {
-  console.log(columnify(items));
+  var opts = header ? { headingTransform: id } : undefined;
 });
+
+function id(x) { return x; }
