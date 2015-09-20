@@ -7,6 +7,12 @@
 
   The json2csv in this example is from [jb55/json2csv](http://npmrepo.com/jb55-json2csv)
 
+## Alternative
+
+  via [csv-delim](https://github.com/jb55/csv-delim):
+  
+    $ csv-columnify () { csv-delim < "$1" | column -t -s $'\t' }
+
 ## Installation
 
   Install with npm
