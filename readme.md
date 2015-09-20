@@ -9,6 +9,9 @@
 
 ## Alternative
 
+  UPDATE: Don't bother using csv-columnify, use this instead if you want
+  something a million times faster:
+
   via [csv-delim](https://github.com/jb55/csv-delim):
   
     $ csv-columnify () { csv-delim < "$1" | column -t -s $'\t' }
